@@ -14,8 +14,17 @@ function Bar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to='/historia'>História</NavLink>
+                        <li className="nav-item dropdown">
+                                <NavLink className="nav-link dropdown-toggle" to='/home' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    História
+                                </NavLink>
+                                <ul className="dropdown-menu">
+                                    <li><NavLink className="dropdown-item" to='/fundacao'>Fundação</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to='/pele'>Pelé</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to='/idolos'>Ídolos</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to='/escudos'>Escudos</NavLink></li>
+                                    <li><NavLink className="dropdown-item" to='/hinooficial'>Hino Oficial</NavLink></li>
+                                </ul>
                             </li>
                             <li className="nav-item dropdown">
                                 <NavLink className="nav-link dropdown-toggle" to='/home' role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,45 +36,8 @@ function Bar() {
                                     <li><NavLink className="dropdown-item" to='/sereiasdavila'>Sereias da Vila</NavLink></li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle" to='/home' role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Títulos
-                                </NavLink>
-                                <ul className="dropdown-menu">
-                                    <li><NavLink className="dropdown-item" to='/mundiais'>Mundiais</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/libertadores'>Libertadores</NavLink></li>                                   
-                                    <li><NavLink className="dropdown-item" to='/copadobrasil'>Copa do Brasil</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/recopasulamericana'>Recopa Sul-Americana</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/campeonatosbrasileiros'>Campeonato Brasileiro</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/campeonatospaulistas'>Campeonato Paulista</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/copaintercontinentais'>Copa Intercontinentai</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneioriosaopaulo'>Torneio Rio-São Paulo</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/recopamundialinterclubes'>Recopa Mundial Interclubes</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/recopasulamericanainterclubes'>Recopa Sul-Americana Interclubes</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/trofeuterezaherrera'>Troféu Tereza Herrera</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodeparis'>Torneio de Paris</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/trofeutriangulardevalencia'>Troféu Triangular de Valência</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiopentagonaldomexico'>Torneio Pentagonal do México</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/tacadrmarioechandi'>Taça Dr. Mário Echandi</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/trofeugialloroso'>Troféu Gialloroso</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodacostarica'>Torneio da Costa Rica</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiopentagonaldeguadalajara'>Torneio Pentagonal de Guadalajara</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodaitalia'>Torneio da Itália</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiohexagonaldochile'>Torneio Hexagonal do Chile</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodecaracas'>Torneio de Caracas</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneioquadrangulardebuenosaires'>Torneio Quadrangular de Buenos Aires</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodenovayork'>Torneio de Nova York</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/triangularroma/florenca'>Triangular Roma/Florença</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiooctognaldochile'>Torneio Octogonal do Chile</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiopentagonaldebuenosaires'>Torneio Pentagonal de Buenos Aires</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/triangulardaguatemala'>TRiangular da Guatemala</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodekingston'>Torneio de Kingston</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiotriangularleon'>Torneio Triangular Léon</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiovencedoresdaamerica'>Torneio Vencedores da América</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiocidadedepamplona'>Torneio Cidade de Pamplona</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/copakirin'>Copa Kirin</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to='/torneiodeparis'>Torneio Cidade de Marseille</NavLink></li>
-                                </ul>
+                            <li className="nav-item">
+                                <NavLink className="nav-link active" aria-current="page" to='/titulos'>Titulos</NavLink>
                             </li>
                         <li className="nav-item">
                                 <NavLink className="nav-link" to='/faleconosco'>Fale Conosco</NavLink>
