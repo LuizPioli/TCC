@@ -1,0 +1,68 @@
+/* Fundo geral da página */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container principal */
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  /*background: url('./fundo-vila-belmiro.jpg') center/cover no-repeat;  opcional */
+}
+
+/* Caixa central com bordas douradas */
+.Escudos {
+  width: 70%;
+  background-color: #0a0a0a;
+  border-left: 3px solid #f5c518; /* dourado estilo Santos */
+  border-right: 3px solid #f5c518;
+  border-top: #f5c518;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.2);
+}
+
+/* Cada seção (escudo + texto) */
+.bloco {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.ImagemEscudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ImagemEscudo img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.ImagemEscudo img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ddd;
+}

@@ -1,0 +1,16 @@
+main{
+    width: 100vw;
+    /*margin: 5% 20%;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+
+}
+
+.titulos{
+    max-width: 80%;
+    border-style: solid;
+    border-radius: 2%;
+    padding: 3% 7%;
+}

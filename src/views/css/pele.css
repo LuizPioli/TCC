@@ -1,0 +1,18 @@
+main{
+    width: 100vw;
+    /*margin: 5% 20%;*/
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pele{
+    max-width: 80%;
+    border-style: solid;
+    border-radius: 3%;
+    padding: 5% 7%;
+}
+
+h1{
+    text-align: center;
+}
