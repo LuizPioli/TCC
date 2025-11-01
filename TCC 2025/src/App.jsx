@@ -8,6 +8,7 @@ import Historia from './views/Historia';
 import Titulos from './views/Titulos';
 import Fundação from './views/Fundação';
 import Pele from './views/pele';
+import Escudos from './views/escudos';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/titulos" element={<Titulos />} />
         <Route path="/fundacao" element={<Fundação />} />
         <Route path="/pele" element={<Pele/>}/>
+        <Route path="/escudos" element={<Escudos/>} />
       </Routes>
 
     </BrowserRouter>

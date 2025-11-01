@@ -4,15 +4,13 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    
+
 }
 
-.pele{
+.titulos{
     max-width: 80%;
     border-style: solid;
-    border-radius: 3%;
-    padding: 5% 7%;
-}
-
-h1{
-    text-align: center;
+    border-radius: 2%;
+    padding: 3% 7%;
 }
