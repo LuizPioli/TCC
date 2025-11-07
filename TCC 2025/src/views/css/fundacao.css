@@ -4,8 +4,6 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    
-
 }
 
 .fundacao{
@@ -13,4 +11,5 @@ main{
     border-style: solid;
     border-radius: 3%;
     padding: 5% 7%;
+    border: 3px solid #f5c518;
 }
