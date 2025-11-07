@@ -1,0 +1,29 @@
+.card-text-black {
+    color: black;
+  }
+
+  .dark-card {
+    background-color: transparent; /* Fundo escuro */
+    color: white;              /* Texto branco */
+    border: none;              /* Remove bordas */
+  }
+  
+  .dark-card .card-title {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .dark-card .card-text {
+    color: white;
+  }
+  
+  .dark-card button {
+    background-color: white;
+    color: #1c1c1c;
+    border: none;
+  }
+  
+  .dark-card button:hover {
+    background-color: #e0e0e0;
+    color: black;
+  }

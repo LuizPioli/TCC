@@ -9,6 +9,7 @@ import Titulos from './views/Titulos';
 import Fundação from './views/Fundação';
 import Pele from './views/pele';
 import Escudos from './views/escudos';
+import Idolos from './views/idolos';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/fundacao" element={<Fundação />} />
         <Route path="/pele" element={<Pele/>}/>
         <Route path="/escudos" element={<Escudos/>} />
+        <Route path="/idolos" element={<Idolos/>}/>
       </Routes>
 
     </BrowserRouter>
