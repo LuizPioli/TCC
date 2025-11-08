@@ -1,16 +1,59 @@
-main{
-    width: 100vw;
-    /*margin: 5% 20%;*/
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    
-
+/* Fundo geral da página */
+body {
+  background-color: #000;
+  font-family: "Roboto", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 
-.titulos{
-    max-width: 80%;
-    border-style: solid;
-    border-radius: 2%;
-    padding: 3% 7%;
+/* Centralização do conteúdo principal */
+.main-titulos {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+
+/* Caixa dourada com fundo escuro */
+.container-titulos {
+  background-color: #0a0a0a;
+  border: 2px solid #f5c518;
+  border-radius: 20px;
+  padding: 60px 80px;
+  max-width: 900px;
+  width: 80%;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.15);
+}
+
+/* Título principal */
+.titulo-principal {
+  text-align: center;
+  color: #f5f5f5;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  text-shadow: 0 0 10px rgba(245, 197, 24, 0.2);
+}
+
+/* Lista */
+.lista-titulos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.lista-titulos li {
+  color: #e0e0e0;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+.lista-titulos li:hover {
+  color: #f5c518;
 }

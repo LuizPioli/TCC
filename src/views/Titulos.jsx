@@ -1,17 +1,16 @@
-import "./css/titulos.css"
+import "./css/titulos.css";
 import Lista from "../components/Lista";
-import titulos from "../components/Lsta";
-import Lsta from "../components/Lsta"
-function Titulos(){
-    return (
-        <main>
-            <div class='titulos'>
-                <h1>Títulos</h1>
-                 <Lista titulos={Lsta}/>
-            </div>
-        </main>
-    )
+import Lsta from "../components/Lsta";
+
+function Titulos() {
+  return (
+    <main className="main-titulos">
+      <section className="container-titulos">
+        <h1 className="titulo-principal">TÍTULOS</h1>
+        <Lista titulos={Lsta} />
+      </section>
+    </main>
+  );
 }
 
-
-export default Titulos
+export default Titulos;

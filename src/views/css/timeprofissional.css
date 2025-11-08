@@ -1,0 +1,57 @@
+.team-section {
+  background-color: #0c0c0c;
+  color: #d6a04c;
+  text-align: left;
+  padding: 60px 80px;
+  min-height: 100vh;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.team-title {
+  font-size: 48px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.team-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #d6a04c;
+  margin-left: 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-button {
+  background-color: #fff;
+  color: #d6a04c;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.team-button:hover {
+  background-color: #d6a04c;
+  color: #fff;
+}
+
+.team-button.active {
+  background-color: #d6a04c;
+  color: #fff;
+}
+
+.team-section {
+  background: url("/images/texture-dark.jpg") repeat;
+  background-size: cover;
+  color: #d6a04c;
+}

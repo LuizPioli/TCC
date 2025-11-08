@@ -10,6 +10,7 @@ import Fundação from './views/Fundação';
 import Pele from './views/pele';
 import Escudos from './views/escudos';
 import Idolos from './views/idolos';
+import TimeProfissional from './views/timeprofissional';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/pele" element={<Pele/>}/>
         <Route path="/escudos" element={<Escudos/>} />
         <Route path="/idolos" element={<Idolos/>}/>
+        <Route path="/timeprofissional" element={<TimeProfissional/>}/>
       </Routes>
 
     </BrowserRouter>
